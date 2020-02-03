@@ -4,7 +4,8 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `Suan Yeo`,
+    siteTitleAlt: `suanaikyeo.com`,
   },
   plugins: [
     {
@@ -22,12 +23,16 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `LinkedIn`,
+            url: `https://www.linkedin.com/in/suanaikyeo`,
           },
           {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            name: `Github`,
+            url: `https://github.com/suan`,
+          },
+          {
+            name: `Twitter`,
+            url: `https://twitter.com/suanyeo`,
           },
         ],
       },
